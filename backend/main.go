@@ -8,7 +8,7 @@ import (
 func main() {
 	app := fiber.New()
 
-	routes.SetupRoutes(app)
+	routes.RegisterProductRoutes(app)
 
 	app.Listen(":3000")
 }
