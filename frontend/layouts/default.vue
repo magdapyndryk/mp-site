@@ -1,15 +1,12 @@
 <template>
-  <header>
-    <nav>
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/products">Products</NuxtLink>
-    </nav>
-  </header>
-  <main>
+  <div>
+    <Header />
     <NuxtPage />
-  </main>
-  <footer>
-    <p>© 2024 My site</p>
-  </footer>
+  </div>
 </template>
+
+<script setup>
+import Header from '~/components/Header.vue';
+</script>
+
 
