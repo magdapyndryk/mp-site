@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="logo">
-      <img src="/logo.png" alt="Logo" />
+      <img src="/logomp.png" alt="Logo" />
     </div>
     <nav class="nav-menu">
       <ul>
@@ -24,9 +24,14 @@
   align-items: center;
   padding: 1rem;
   background-color: #f8f8f8;
+  height: auto;
 }
 .logo img {
-  height: 50px;
+  height: 100px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
 .nav-menu ul {
   display: flex;
